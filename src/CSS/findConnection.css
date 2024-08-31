@@ -1,0 +1,89 @@
+.find-connection {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.find-connection h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4A90E2;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.connection-results {
+    margin-top: 20px;
+}
+
+.connection-results h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.connection-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.connection-results li {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+    color: #00796b;
+    font-weight: bold;
+}
+
+.error{
+    text-align: center;
+    color: red;
+}
+.path-error{
+    text-align: center;
+    color: red;
+}

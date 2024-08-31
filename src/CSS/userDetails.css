@@ -1,0 +1,40 @@
+.user-details-div {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid black;
+    width: 200px;
+}
+
+.user-details-div h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #000000;
+}
+
+.user-details-div p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.follow-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.follow-button.following {
+    background-color: #357ABD;
+}
+
+.follow-button:hover {
+    background-color: #357ABD;
+}
